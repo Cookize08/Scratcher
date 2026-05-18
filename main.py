@@ -2,10 +2,10 @@ import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
 
-path = r"C:\Users\vinic\OneDrive\Área de Trabalho\Novo projeto\Faculdade\instagram-grafo\IGFollow_vfrnca__500_followers.csv"
+path = r"YOU_PATH"
 df = pd.read_csv(path)
 
-central_user = "vfrnca_"
+central_user = "USERNAME"
 
 G = nx.DiGraph()
 
